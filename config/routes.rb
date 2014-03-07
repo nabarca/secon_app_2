@@ -1,4 +1,7 @@
 SeconApp2::Application.routes.draw do
+  resources :miniposts
+
+
   resources :users
 
 
